@@ -4,9 +4,13 @@ on:
   push:
     branches:
       - jagadish1296-st
+      - list_string_functions.py
+      - test.py
   pull_request:
     branches:
       - jagadish1296-st
+      - list_string_functions.py
+      - test.py
 
 jobs:
   build:
